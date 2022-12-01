@@ -1,0 +1,35 @@
+.image-container {
+    max-width: 100%;
+    max-height: 100%;
+    border-style: solid;
+    border-width: thick;
+    border-color: orange;
+}
+
+.image-one-container img {
+    width: 100%;
+}
+
+.image-two-container img {
+    width: 100vw;
+}
+
+.color-picker {
+    color: pink;
+}
+
+.font-size-picker {
+    font-size:x-large;
+    font-family:"URW Chancery L", "cursive";
+    text-transform: uppercase;
+}
+
+.ordered-list, .unordered-list, li{
+    margin-top: 15px;
+}
+
+.ordered-list, .unordered-list {
+    border-style: solid;
+    border-width: thick;
+    border-color: greenyellow;
+}

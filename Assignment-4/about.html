@@ -1,0 +1,90 @@
+
+<!doctype html>
+	<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" >
+		<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Assignment</title>
+	</head>
+	<body>
+		<!-- Mobile View Header -->
+		<div class="mHeader" id="mHeader">
+			<!-- Mobile View Header Top Bar -->
+			<div class="mTop">
+				<!-- Mobile View Header Top Bar Times -->
+				<div class="right" onclick="myFunction()">
+					<span>&times;</span>
+				</div>
+			</div>
+			<!-- Mobile View Header NavBar -->
+			<div class="mHeaderNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<a href="javascript:void(0);" class="menuIcon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+		<div class="header" id="header">
+			<div class="logo">
+				<a href="index.html"><img src="assets/images/logo1.png" title="Logo" alt="Logo"></a>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<section class="sec" id="about">
+			<div class="container aboutInfo">
+				<div class="row">
+					<div class="col text-center">
+						<img src="assets/images/bio.jpeg" alt="Laiba" height="300" width="300" title="Liba">
+					</div>
+					<div class="col bioText">
+						<h2 class="bio">About Me</h2>
+						<p>Hi, my name is Laiba Sheraz. Thanks for stumbling upon
+							this website, it’s so nice to e-meet you! I wanted you to
+							get to know me a little before we get into what I can
+							offer you. I am about to graduate from Brock
+							University, with a Bachelors in Business
+						Communications.</p>
+
+						<p>I come with a strong marketing background as I always
+							indulged myself in any marketing projects. Some key
+							worthy projects to note were for Invittco, a marketing
+							agency. I got to work with several clients, allowing me
+						to explore my creativity is different industries.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<span class="text-center">&copy;Copyright 2022. All Rights Reserved</span>
+		</footer>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("mHeader");
+				var m = document.getElementById("menuIcon");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+					m.style.display = "block";
+
+				} else {
+					x.style.display = "block";
+					m.style.display = "none";
+				}
+			}
+		</script>
+	</body>
+	</html>

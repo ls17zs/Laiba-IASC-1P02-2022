@@ -1,0 +1,209 @@
+@import url(https://db.onlinewebfonts.com/c/fea31a6e7338aec52602b8c39dc16512?family=Agrandir+Thin);
+body{
+
+  	color: #000;
+	font-family: "Agrandir Thin";
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #939393;
+/*    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/images/main1.jpg)!important;*/
+    background-size: cover;
+    transition-duration: .8s;
+    min-height: 100%;
+    height: calc(100vh);
+    background-position: 30% -532px;
+    opacity: 1;
+    transform: translate(0);
+    background: #fff;
+}
+.mHeader{
+	height: 100vh;
+    background: #efefef;
+    width: 46%;
+    float: right;
+    display: none;
+    margin-top: -126px;
+}
+.mTop{
+	padding: 10px;
+    float: right;
+    font-size: 50px;
+    width: 100%;
+    justify-content: right;
+    display: flex;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.title{
+	color: #000;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+}
+.mHeaderNav ul{
+	list-style: none;
+    float: left;
+    padding: 10px;
+    margin-top: -15px;
+}
+.mHeaderNav ul li{
+	padding: 10px 10px 10px 30px;
+}
+.mHeaderNav ul li a{
+	text-decoration: none;
+    color: rgb(0,0,0,0.7);
+    font-size: 15px;
+    transition: 0.3s;
+}
+.mHeaderNav ul li a:hover{
+	color: #96bb7c;
+}
+
+.header{
+	    height: 90px;
+    display: flex;
+    width: 100%;
+    background: rgb(0,0,0,0.5);
+    margin-top: 0px;
+}
+.active{
+
+}
+.logo{
+    padding-left: 50px;
+}
+.logo img{
+	width: 80px;
+    height: 80px;
+}
+.menuIcon{
+	float: right;
+    width: 7%;
+    margin-top: -110px;
+}
+.menuIcon i{
+	font-size: 30px;
+    color: #fff;
+    margin-top: -2px;
+}
+.navbar{
+	display: flex;
+    width: 100%;
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    transition: 0.3s;
+}
+.navbar ul li a:hover{
+	color: #fff;
+}
+.navbar ul{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    margin-left: -100px;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Agrandir Thin";  }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700; }
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+
+.btn, .form-control {
+  height: 55px; }
+
+form.border-right {
+  padding-right: 6rem !important; }
+  @media (max-width: 991.98px) {
+    form.border-right {
+      padding-right: 0 !important;
+      border-right: none !important; } }
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: #B90B0B; }
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
+.col-lg-7.mb-5.mb-lg-0{
+	margin-top: 24px;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	.header{
+		display: none;
+	}
+	.menuIcon{
+		display: block;
+	}
+}
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #efefef;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #000;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1rem;
+    bottom: 0
+}

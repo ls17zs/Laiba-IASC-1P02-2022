@@ -1,8 +1,8 @@
 @import url(https://db.onlinewebfonts.com/c/fea31a6e7338aec52602b8c39dc16512?family=Agrandir+Thin);
 body{
-	
+
  color: #000;
- font-family: "Agrandir Thin"; 
+ font-family: "Agrandir Thin";
  line-height: 1.6;
  overflow-x: hidden;
  font-size: 16px;
@@ -19,7 +19,7 @@ background: #fff;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-family: "Agrandir Thin"; 
+  font-family: "Agrandir Thin";
   color: #000000;
 }
 h3{

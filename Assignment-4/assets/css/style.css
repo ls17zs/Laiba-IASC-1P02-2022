@@ -3,7 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Agrandir Thin"; 
+	font-family: "Agrandir Thin";
 }
 html{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/main1.jpg);
@@ -120,7 +120,7 @@ h3{
     text-align: center;
     margin-top: 100px;
     margin-left: 43%;
-    line-height: 2em;			 
+    line-height: 2em;
 }
 .mainInfo .p1{
     font-size: 70px;
@@ -128,7 +128,7 @@ h3{
 .mainInfo .p2{
     font-size: 36px;
 }
-section{
+section, #home{
 	height: calc(100vh);
 }
 section#about{
@@ -800,4 +800,3 @@ h3 {
     background: #b1cc9e;
     color: #ffffff;
 }
-
